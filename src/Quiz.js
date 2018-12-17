@@ -2,8 +2,13 @@ import React, {component} from 'react';
 
 let quizData = require('./quiz_data.json');
 
-class Quiz extends Component {
-    //goes here
+class Quiz extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+    render () {
+        return <div>Quiz</div>
+    }
 }
 
 export default Quiz;
